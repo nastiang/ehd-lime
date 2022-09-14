@@ -1,0 +1,17 @@
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: Pass3110
+    driverClassName: org.postgresql.Driver
+
+  flyway:
+    enabled: true
+    validate-on-migrate: true
+    url: jdbc:postgresql://localhost:5432/postgres
+    schemas: ehd
+    user: postgres
+    password: Pass3110
+  jooq:
+    sql-dialect:
